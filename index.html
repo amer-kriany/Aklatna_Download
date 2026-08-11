@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أكلاتنا - تحميل التطبيق</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background: #F3E7D8;
+    color: #2B2320;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .tagline {
+    font-size: 14px;
+    color: #7A6F63;
+    margin-bottom: 32px;
+  }
+
+  .download-btn {
+    display: inline-block;
+    background: #D9531E;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 48px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(217, 83, 30, 0.35);
+    transition: transform 0.15s ease;
+  }
+
+  .download-btn:active {
+    transform: scale(0.97);
+  }
+
+  .version {
+    font-size: 13px;
+    color: #A0947F;
+    margin-top: 10px;
+  }
+
+  .guide {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 40px;
+    max-width: 480px;
+    width: 100%;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  .guide h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #2B2320;
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .step:last-child { margin-bottom: 0; }
+
+  .step-num {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #D9531E;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step-text {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #4A413A;
+  }
+
+  .step-text b {
+    color: #2B2320;
+  }
+
+  .note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #A0947F;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+  <h1>أكلاتنا</h1>
+  <p class="tagline">طعم داريا الأصيل</p>
+
+  <a href="aklatna.apk" class="download-btn" download>تحميل التطبيق</a>
+  <p class="version">الإصدار 1.0.0 — أندرويد فقط</p>
+
+  <div class="guide">
+    <h2>خطوات التثبيت</h2>
+
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">
+        اضغط على زر <b>"تحميل التطبيق"</b> أعلاه، وانتظر حتى ينتهي التحميل.
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">
+        افتح الملف الذي تم تحميله من إشعارات الهاتف أو من مجلد <b>"Downloads"</b>.
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">
+        قد تظهر رسالة تحذير من هاتفك مثل <b>"قد يكون هذا التطبيق غير آمن"</b>
+        — هذا أمر طبيعي لأن التطبيق لم يُنشر بعد على متجر Google Play.
+        اضغط على <b>"تثبيت على أي حال"</b> أو <b>"المزيد من التفاصيل"</b> ثم <b>"تثبيت على أي حال"</b>.
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-text">
+        إذا طلب منك الهاتف السماح بالتثبيت من مصادر غير معروفة، اضغط
+        <b>"إعدادات"</b> وفعّل الخيار، ثم عد وحاول التثبيت مرة أخرى.
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">5</div>
+      <div class="step-text">
+        اضغط <b>"تثبيت"</b> وانتظر حتى ينتهي، ثم افتح التطبيق واستمتع بالطلب من مطاعم داريا.
+      </div>
+    </div>
+
+    <p class="note">
+      التطبيق آمن تماماً — التحذير يظهر فقط لأن التطبيق يُثبَّت مباشرة
+      وليس عبر متجر Google Play.
+    </p>
+  </div>
+
+</body>
+</html>
